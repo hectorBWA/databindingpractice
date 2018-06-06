@@ -1,0 +1,15 @@
+body{
+    margin:0;
+}
+html{
+    margin:0;
+    display: none;
+}
+
+.header{
+    top:0;
+    left:0;
+    width:100%;
+    height: 50px;
+    background-color: red;
+}

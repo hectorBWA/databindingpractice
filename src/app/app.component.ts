@@ -7,4 +7,24 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+ 
+  heading: string = "Person Details";
+  person: any = {
+    name:{
+      first:'John',
+      last:'Doe'
+    },
+    gender:'',
+    address: '700 Van Nesse'
+  } ;
+  
+
+  getInitial(){
+    if (this.person.gender === 'm'){
+      return 'Mr.'
+    }else (this.person.gender === 'f'){
+
+    }
+  }
+  
 }
